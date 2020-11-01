@@ -2,6 +2,8 @@
 
 A Function written in C that prints a Marion style pyramid to the console (height determined by user input).
 
+![Example of Mario Pyramid](https://cs50.harvard.edu/x/2020/psets/6/mario/more/pyramids.png)
+
 **To Run**<br>
 
 Clone this repo
