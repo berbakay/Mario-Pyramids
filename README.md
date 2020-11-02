@@ -20,6 +20,12 @@ run file
 
 enter desired height - must be an integerabove 0 and below 8.
 
+**Example Output**<br>
+Height: 3<br>
+&nbsp;&nbsp;&nbsp;&nbsp; #&nbsp;&nbsp; #<br>
+&nbsp; ##&nbsp;&nbsp; ##<br>
+###&nbsp; ###<br>
+
 **Requirements**<br>
 A dev environment that can compile and run C code.<br>
 CS50 Library https://cs50.readthedocs.io/libraries/cs50/c/
