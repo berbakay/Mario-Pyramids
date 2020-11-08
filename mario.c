@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <cs50.h>
 
+void print_height (int height);
+
 int main() 
 {
     int height = get_int("height: "); //get height from user 
@@ -10,7 +12,12 @@ int main()
         height = get_int("height: ");
     }
 
-    for (int i = 0; i < height; i++) //loop number of times given by user
+   print_height(height);
+}
+
+void print_height (int height) {
+
+     for (int i = 0; i < height; i++) //loop number of times given by user
     {
         for (int j = i + 1; j < height; j++) //print number of spaces at start of line 
         {
@@ -31,4 +38,5 @@ int main()
 
         printf("\n");
     }
+
 }
